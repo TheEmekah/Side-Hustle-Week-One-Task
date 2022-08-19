@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Form - Sign In</title>
+    <link rel="stylesheet" href="fonts/Norse-Bold.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-bg">
+            <div class="darken"></div>
+            <header>
+                <img src="images/odin-lined.png" alt="logo" class="logo">
+                <h1>ODIN</h1>
+            </header>
+        </div>
+        <div class="main">
+            <main>
+                <section class="text">
+                    <p>This is not a real online service! You know you need something like this in your
+                        life to help you realize your deepest dreams.</p>
+                    <p>Sign up <em>now</em> to get started.</p><br>
+                    <p>You <em>know</em> you want to.</p>
+                </section>
+                <section class="form">
+                    <form id="form" action="#">
+                        <header>
+                            <h3>Let's do this!</h3>
+                        </header>
+                        <div class="form-grid">
+                            <div>
+                                <label for="first-name">First Name</label>
+                                <input type="text" name="first-name" id="first-name">
+                                <small id="error"></small>
+                            </div>
+                            <div>
+                                <label for="last-name">Last Name</label>
+                                <input type="text" name="last-name" id="last-name">
+                                <small id="error"></small>
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                                <small id="error"></small>
+                            </div>
+                            <div>
+                                <label for="phone-number">Phone Number</label>
+                                <input type="tel" name="phone-number" id="phone-number">
+                                <small id="error"></small>
+                            </div>
+                            <div>
+                                <label for="password">Password</label>
+                                <input type="password" name="password" id="password">
+                                <small id="error"></small>
+                            </div>
+                            <div>
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" name="confirm-password" id="confirm-password">
+                                <small id="error"></small>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <button type="submit">Create Account</button>
+                            <p>Already have an account? <a href="#">Log In</a></p>
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+    </div>
+    <script src="scripts/scripts.js"></script>
+</body>
+
+</html>
